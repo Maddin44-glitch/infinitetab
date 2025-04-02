@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Endloser Tab-Öffner</title>
+    <script>
+        // Funktion, die einen neuen Tab öffnet
+        function openNewTab() {
+            window.open(location.href, '_blank');
+        }
+
+        // Beim Laden der Seite wird ein neuer Tab geöffnet
+        window.onload = function () {
+            openNewTab();
+        };
+    </script>
+</head>
+
+<body>
+    <h1>Dieser Tab wird sich endlos wiederholen, bis du den Browser schließt.</h1>
+    <p>Schließe den Browser, um die Wiederholung zu stoppen.</p>
+</body>
+
+</html>
